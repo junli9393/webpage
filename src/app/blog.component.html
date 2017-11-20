@@ -1,11 +1,12 @@
 <div class="content">
   <div class="header">
+    <p class="middle-text">{{text_display}}
   </div>
 
   <div class="line">
     <div class="left1">
       <a class="item" routerLink="/blog-detail" routerLinkActive="active">
-        <img class="photo" src="../assets/blogs/image/1.JPG" alt="Mountain View">
+        <img class="photo" src="../assets/blogs/image/1.JPG" id="1" (click)="sendMessage($event, 'Hey, Vegas')">
       </a>
     </div>
 
@@ -16,14 +17,17 @@
         <hr class="title-line">
       </div>
       <div class="title">
-        <p > Walking Under the Midnight Sun
-        <p > San Diego
+        <a class="word-link" routerLink="/blog-detail" routerLinkActive="active" (click)="sendMessageByNumber(2, 'Rainy Mood')">
+          <p> Rainy Mood
+          <p> Life @ Seattle
+          </p>
+        </a>
       </div>
     </div>
 
     <div class="right1">
       <a class="item" routerLink="/blog-detail" routerLinkActive="active">
-        <img class="photo" src="../assets/blogs/image/3.JPG" alt="Mountain View">
+        <img class="photo" src="../assets/blogs/image/3.JPG" id="3" (click)="sendMessage($event, 'Go Bruins')">
       </a>
     </div>
   </div>
@@ -36,14 +40,16 @@
         <hr class="title-line">
       </div>
       <div class="title">
-        <p> Hey, Vegas
-        <p> Las Vegas -> Phoenix
+        <a class="word-link" routerLink="/blog-detail" routerLinkActive="active" (click)="sendMessageByNumber(1, 'Hey, Vegas')">
+          <p> Hey, Vegas
+          <p> Las Vegas -> Phoenix </p>
+        </a>
       </div>
     </div>
 
     <div class="middle2">
       <a class="item" routerLink="/blog-detail" routerLinkActive="active">
-      <img class="photo" src="../assets/blogs/image/5.JPG" alt="Mountain View">
+        <img class="photo" src="../assets/blogs/image/2.JPG" id="2" (click)="sendMessage($event, 'Rainy Mood')">
       </a>
     </div>
 
@@ -54,8 +60,10 @@
         <hr class="title-line">
       </div>
       <div class="title" >
-        <p> Go Bruins
-        <p> LA
+        <a class="word-link" routerLink="/blog-detail" routerLinkActive="active" (click)="sendMessageByNumber(3, 'Go Bruins')">
+         <p> Go Bruins
+         <p> LA</p>
+        </a>
       </div>
 
     </div>
@@ -65,7 +73,7 @@
   <div class="line">
     <div class="left1">
       <a class="item" routerLink="/blog-detail" routerLinkActive="active">
-        <img class="photo" src="../assets/blogs/image/4.JPG" alt="Mountain View">
+        <img class="photo" src="../assets/blogs/image/4.JPG" id="4" (click)="sendMessage($event, 'Wayward Kenting')">
       </a>
     </div>
 
@@ -76,14 +84,16 @@
         <hr class="title-line">
       </div>
       <div class="title">
-        <p> Rainy Mood
-        <p> Life @ Seattle
+        <a class="word-link" routerLink="/blog-detail" routerLinkActive="active" (click)="sendMessageByNumber(5, 'Walking Under the Midnight Sun')">
+          <p class="blog-word"> Walking Under the Midnight Sun
+          <p > San Diego </p>
+        </a>
       </div>
     </div>
 
     <div class="right1">
       <a routerLink="/blog-detail" routerLinkActive="active">
-        <img class="photo" src="../assets/blogs/image/6.JPG" alt="Mountain View">
+        <img class="photo" src="../assets/blogs/image/6.JPG" id="6" (click)="sendMessage($event, 'All the way to the North')">
       </a>
     </div>
   </div>
@@ -96,14 +106,16 @@
         <hr class="title-line">
       </div>
       <div class="title">
+        <a class="word-link" routerLink="/blog-detail" routerLinkActive="active" (click)="sendMessageByNumber(4, 'Wayward Kenting')">
         <p> Wayward Kenting
-        <p> TaiWan
+        <p> TaiWan</p>
+        </a>
       </div>
     </div>
 
     <div class="middle2">
       <a class="item" routerLink="/blog-detail" routerLinkActive="active">
-        <img class="photo" src="../assets/blogs/image/2.JPG" alt="Mountain View">
+        <img class="photo" src="../assets/blogs/image/5.JPG" id="5" (click)="sendMessage($event, 'Walking Under the Midnight Sun')">
       </a>
     </div>
 
@@ -114,12 +126,17 @@
         <hr class="title-line">
       </div>
       <div class="title" >
+        <a class="word-link" routerLink="/blog-detail" routerLinkActive="active" (click)="sendMessageByNumber(6, 'All the way to the North')">
         <p> All The Way to The north
         <p> LA -> San Franscio -> Solvang -> SB
+        </a>
       </div>
 
     </div>
   </div>
+
+  TO BE ADDED：
+  Portland, Vancouver
 
 </div>
 
