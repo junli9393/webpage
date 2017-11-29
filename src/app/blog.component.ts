@@ -9,9 +9,10 @@ import {DataService} from './data.service';
 export class BlogComponent implements OnInit {
   count = 1;
   constructor(private dataservice: DataService) {}
-  title = 'What Do You Want To Be When You Grow Up?'
+  title = 'What Do You Want To Be When You Grow Up?';
+  title2 = '我有故事 ， 你有酒吗 ?';
   text_display = ''
-
+  text_display2 = ''
   typingCallback(that) {
     const total_len = that.title.length;
     const cur_len = that.text_display.length;
@@ -21,8 +22,19 @@ export class BlogComponent implements OnInit {
     setTimeout(that.typingCallback, 80, that);
   }
 
+  typingCallback2(that) {
+    const total_len = that.title2.length;
+    const cur_len = that.text_display2.length;
+    if (cur_len < total_len) {
+      that.text_display2 += that.title2[cur_len];
+    } else {}
+    setTimeout(that.typingCallback2, 250, that);
+  }
+
+
   ngOnInit() {
     this.typingCallback(this);
+    this.typingCallback2(this);
   }
 
   sendMessage(event, title: string): void {

@@ -26,7 +26,7 @@
 .left1 {
   width: 25%;
   height: 100%;
-  background-color: #f6f6f6;
+  background-color: white;
   display: inline-block;
   overflow: hidden;
 }
@@ -43,7 +43,7 @@
 .right1 {
   width: 25%;
   height: 100%;
-  background-color: #f6f6f6;
+  background-color: white;
   display: inline-block;
   overflow: hidden;
 }
@@ -82,7 +82,7 @@
 .middle2 {
   width: 25%;
   height: 100%;
-  background-color: #f6f6f6;
+  background-color: white;
   display: inline-block;
   overflow: hidden;
 }
@@ -127,7 +127,7 @@
   color: #ccc;
   font-size: x-large;
   position: relative;
-  top: 50%;
+  top: 20%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -161,7 +161,7 @@
 .item {
   text-decoration: None;
   position: relative;
-
+  padding: 0;
   border: 1px solid #333;
   margin: 2%;
   overflow: hidden;

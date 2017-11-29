@@ -1,7 +1,79 @@
 <div class="content">
   <div class="header">
     <p class="middle-text">{{text_display}}
+    <p class="middle-text">{{text_display2}}
   </div>
+
+
+  <!--First Line -->
+  <div class="line">
+    <div class="left1">
+      <a class="item" routerLink="/blog-detail" routerLinkActive="active">
+        <img class="photo" src="../assets/blogs/image/7.JPG" id="7" (click)="sendMessage($event, 'Escape from the Winter @Texas')">
+      </a>
+    </div>
+
+    <div class="middle1">
+      <div class="horizontal-line">
+        <br/>
+        <br/>
+        <hr class="title-line">
+      </div>
+      <div class="title">
+        <a class="word-link" routerLink="/blog-detail" routerLinkActive="active" (click)="sendMessageByNumber(8, 'Ill See You Again')">
+          <p> I'll See You Again
+          <p> @Vancouver
+          </p>
+        </a>
+      </div>
+    </div>
+
+    <div class="right1">
+      <a class="item" routerLink="/blog-detail" routerLinkActive="active">
+        <img class="photo" src="../assets/blogs/image/9.JPG" id="9" (click)="sendMessage($event, 'City of Flower')">
+      </a>
+    </div>
+  </div>
+
+  <div class="line2">
+    <div class="left2">
+      <div class="horizontal-line">
+        <br/>
+        <br/>
+        <hr class="title-line">
+      </div>
+      <div class="title">
+        <a class="word-link" routerLink="/blog-detail" routerLinkActive="active" (click)="sendMessageByNumber(7, 'Escape from the Winter @Texas')">
+          <p> Escape from the Winter
+          <p> @Texas </p>
+        </a>
+      </div>
+    </div>
+
+    <div class="middle2">
+      <a class="item" routerLink="/blog-detail" routerLinkActive="active">
+        <img class="photo" src="../assets/blogs/image/8.JPG" id="8" (click)="sendMessage($event, 'Ill See You Again')">
+      </a>
+    </div>
+
+    <div class="right2">
+      <div class="horizontal-line">
+        <br/>
+        <br/>
+        <hr class="title-line">
+      </div>
+      <div class="title" >
+        <a class="word-link" routerLink="/blog-detail" routerLinkActive="active" (click)="sendMessageByNumber(9, 'City of Flower')">
+          <p> City of Flower
+          <p> @Portland</p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+
+
 
   <div class="line">
     <div class="left1">
