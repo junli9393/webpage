@@ -1,5 +1,5 @@
 .top {
-  background-color: black;
+  /*background-color: black;*/
   position: relative;
   height: 46%;
   width: 100%;
@@ -89,3 +89,15 @@
   text-decoration: none;
 }
 
+
+.effect:hover {
+  opacity: 0.7;
+  background-color:rgba(0,0,0,0.7);
+}
+
+.effect  {
+  opacity: 1;
+  overflow:visible;
+  box-sizing:border-box;
+  transition: all 0.4s ease-in-out;
+}
