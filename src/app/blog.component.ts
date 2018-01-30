@@ -9,7 +9,7 @@ import {DataService} from './data.service';
 export class BlogComponent implements OnInit {
   count = 1;
   constructor(private dataservice: DataService) {}
-  title = 'What Do You Want To Be When You Grow Up?';
+  title = 'I have the story. Do you have the wine?';
   title2 = '我有故事 ， 你有酒吗 ?';
   text_display = ''
   text_display2 = ''

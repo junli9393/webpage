@@ -29,6 +29,10 @@
   transform: translateY(-50%);
 }
 
+img {
+  image-orientation: from-image;
+}
+
 .blogs{
   padding: 1% 5% 0 5%;
   text-align: left;
