@@ -1,0 +1,8 @@
+1. Back to top button for blog and blog detail page
+2. Previous/Next button for blogs
+3. Add icon for airbnb in contact page
+4. Refine the blogs...
+5. Refactor the blog page
+6. Solve the resize issue
+7. Fix the photo align
+8. Add blogs for the national parks (olympic, rainier, yosemite, etc)

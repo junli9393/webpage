@@ -42,7 +42,7 @@ html,body {
   float: right;
   position: relative;
 
-  background-color: #eef;
+  background-color: #ededed;
   width: 50%;
   height: 100%;
 }
@@ -55,7 +55,7 @@ html,body {
 }
 
 #right li {
-  width: 33%;
+  width: 33.3%;
   height: 100%;
   background-color: #d7ebd8;
 }
@@ -82,7 +82,7 @@ html,body {
 #right li#nav-contact:hover, #right li#nav-contact:focus,
 #right li#nav-blog:hover, #right li#nav-blog:focus,
 #right li#nav-worldmap:hover, #right li#nav-worldmap:focus{
-  width: 33%;
+  width: 33.333%;
   height: 100%;
   color: white;
   background-color: #dddddd;
@@ -135,4 +135,8 @@ html,body {
   height: 92%;
   background-color: transparent;
   overflow: hidden;
+}
+
+.word{
+  font-size: 10vh;
 }

@@ -1,21 +1,21 @@
 .header{
   width: 100%;
   height: 100%;
-  background-color: #8397ac;
-  padding: 0% 5% 0% 5%;
+  background-color: #e1dad6;
   overflow: scroll;
 }
 
 .title {
   width: 100%;
-  height: 15%;
+  height: 10%;
   position: relative;
-  background-color: #b3bcbf;
+  background-color: #d3cacc;
   overflow: auto;
   text-align: center;
   font-size: medium;
   text-decoration: none;
   color: black;
+  padding: 0;
 }
 
 .middle-text {
